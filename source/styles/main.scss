@@ -1,17 +1,6 @@
 @import 'reset';
+@import 'base';
 
-*{
-    box-sizing: border-box;
-    padding:0px;
-    margin: 0px;
- }
- 
- body{
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
- }
- 
- 
  $color-1: #21C2F8;
  $color-2: #FFFFFF;
  $color-3: #222533;
@@ -25,25 +14,7 @@
  $color-11: #8FC567;
  $font-1:'Lato', sans-serif;
  
- 
- 
- 
- 
- .row{
-    margin-top:50px;
-    margin-left:50px;
-    display:flex;
-    align-items: flex-end;
-    .btn{
-        margin-right:30px;
-        &:last-child{
-            margin-right:0px;
-        }
-    }
- }
- 
- 
- 
+
  
  .btn{
     background-color: $color-1;
